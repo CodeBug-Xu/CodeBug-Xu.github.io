@@ -3,21 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://codebug-xu.github.io/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://codebug-xu.github.io/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://codebug-xu.github.io/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>https://codebug-xu.github.io/</loc>
+    <lastmod>2019-12-27T13:51:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -31,7 +18,18 @@
   </url>
   
   <url>
+    <loc>https://codebug-xu.github.io/posts/2019/12/finalgame/</loc>
+    <lastmod>2019-12-27T13:51:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codebug-xu.github.io/posts/</loc>
+    <lastmod>2019-12-27T13:51:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://codebug-xu.github.io/tags/</loc>
+    <lastmod>2019-12-27T13:51:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -41,6 +39,25 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://codebug-xu.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://codebug-xu.github.io/tags/untagged/</loc>
+    <lastmod>2019-12-27T13:51:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codebug-xu.github.io/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://codebug-xu.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://codebug-xu.github.io/categories/"
                 />
   </url>
   
