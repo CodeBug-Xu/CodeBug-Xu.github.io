@@ -26,11 +26,13 @@
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
             <guid>https://codebug-xu.github.io/posts/1/01/exchange-experience-in-russia/</guid>
-            <description>Thanks for 2 doctors(Dr.Wang &amp;amp; Dr. Jiang) leading us in Russia for our exchange study. Here is the team. Both for fun and study.</description>
-            <content type="html"><![CDATA[<p>Thanks for 2 doctors(Dr.Wang &amp; Dr. Jiang) leading us in Russia for our exchange study.
+            <description>Thanks for 2 doctors(Dr.Wang &amp;amp; Dr. Jiang) leading us in Russia for our exchange study.
 Here is the team.
-<img src="../../images/team.jpeg" alt="">
-Both for fun and study.</p>
+Both for fun and study</description>
+            <content type="html"><![CDATA[<p>Thanks for 2 doctors(Dr.Wang &amp; Dr. Jiang) leading us in Russia for our exchange study.</p>
+<p>Here is the team.</p>
+<p><img src="../../static/team.jpeg" alt="team"></p>
+<p>Both for fun and study</p>
 ]]></content>
         </item>
         
