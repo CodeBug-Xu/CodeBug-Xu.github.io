@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://codebug-xu.github.io/posts/2018/12/exchange-experience-in-russia/</loc>
+    <lastmod>2018-12-27T10:58:24+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://codebug-xu.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -59,10 +64,6 @@
                 hreflang="en"
                 href="https://codebug-xu.github.io/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://codebug-xu.github.io/posts/1/01/exchange-experience-in-russia/</loc>
   </url>
   
 </urlset>
