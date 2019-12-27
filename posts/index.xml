@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on CodeBugs</title>
+        <link>https://codebug-xu.github.io/posts/</link>
+        <description>Recent content in Posts on CodeBugs</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-ch</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Fri, 27 Dec 2019 10:58:24 +0800</lastBuildDate>
+        <atom:link href="https://codebug-xu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Heeeeeelllllllo</title>
+            <link>https://codebug-xu.github.io/posts/2019/12/heeeeeelllllllo/</link>
+            <pubDate>Fri, 27 Dec 2019 10:58:24 +0800</pubDate>
+            
+            <guid>https://codebug-xu.github.io/posts/2019/12/heeeeeelllllllo/</guid>
+            <description>This is CodeBug from china Hobbies : 篮ball &amp;amp; volley球 major : Computer Science </description>
+            <content type="html"><![CDATA[<h1 id="this-is-codebug-from-china">This is CodeBug from china</h1>
+<h2 id="hobbies--ball--volley">Hobbies : 篮ball &amp; volley球</h2>
+<h2 id="major--computer-science">major : Computer Science</h2>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
