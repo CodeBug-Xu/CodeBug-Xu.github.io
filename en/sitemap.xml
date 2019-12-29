@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://codebug-xu.github.io/blogs/</loc>
+    <lastmod>2019-12-27T17:21:19+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://codebug-xu.github.io/</loc>
     <lastmod>2019-12-27T17:21:19+08:00</lastmod>
     <xhtml:link
@@ -18,17 +23,12 @@
   </url>
   
   <url>
-    <loc>https://codebug-xu.github.io/posts/2019/12/final-season/</loc>
+    <loc>https://codebug-xu.github.io/blogs/final/</loc>
     <lastmod>2019-12-27T17:21:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://codebug-xu.github.io/posts/</loc>
-    <lastmod>2019-12-27T17:21:19+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://codebug-xu.github.io/posts/2018/12/exchange-experience-in-russia/</loc>
+    <loc>https://codebug-xu.github.io/blogs/russiatrip/</loc>
     <lastmod>2018-12-27T10:58:24+00:00</lastmod>
   </url>
   
