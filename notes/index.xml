@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ch</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 29 Dec 2019 18:46:28 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2019 19:33:46 +0800</lastBuildDate>
     
 	<atom:link href="https://codebug-xu.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Quantum neural network</title>
-      <link>https://codebug-xu.github.io/notes/quantum/</link>
-      <pubDate>Sun, 29 Dec 2019 18:46:28 +0800</pubDate>
+      <title>Word1</title>
+      <link>https://codebug-xu.github.io/notes/word1/</link>
+      <pubDate>Sun, 29 Dec 2019 19:33:46 +0800</pubDate>
       
-      <guid>https://codebug-xu.github.io/notes/quantum/</guid>
-      <description>Quantum neural network </description>
+      <guid>https://codebug-xu.github.io/notes/word1/</guid>
+      <description>what is the</description>
     </item>
     
   </channel>
