@@ -126,9 +126,9 @@ Both for fun and study!</description>
 1.排序算法  排序算法是《数据结构与算法》中最基本的算法之一。
  排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因为排序的数据量会很大，一次不能容纳全部的排序记录，在排序过程中需要访问外部存储（对于存储的概念并没有很深刻的理解，毕竟计算机体系结构这样的书都被我用来垫显示器了，真的是非常汗颜）。常见的外部排序算法又：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序等！这里基于Google和各类大神的结合我进行了简单的概括。
    排序算法 平均时间复杂度 空间复杂度 排序方式 稳定性     冒泡排序 ${O(n^2)}$ $O(1)$ 内部排序 稳定   选择排 $O(n^2)$ $O(1)$ 内部排序 不稳定   插入排序 $O(n^2)$ $O(1)$ 内部排序 稳定   希尔排序 ${O(nlog^n)}$ $O(1)$ 内部排序 不稳定   归并排序 ${O(nlog^n)}$ $O(n)$ 外部排序 稳定   快速排序 ${O(nlog^n)}$ $O(log^n)$ 内部排序 不稳定   堆排序 ${O(nlog^n)}$ $O(1)$ 内部排序 不稳定   计数排序 $O(n+k)$ $O(k)$ 外部排序 稳定   桶排序 $O(n+k)$ $O(n+k)$ 外部排序 稳定   基数排序 $O(n+k)$ $O(n+k)$ 外部排序 稳定    2.</description>
-            <content type="html"><![CDATA[<h5 id="heading">排序算法</h5>
+            <content type="html"><![CDATA[<h2 id="heading">排序算法</h2>
 <p>  记录本身是为了自己查找，后面你们会发现，我写的东西大多数都是为了方便自己查找，而非真正的“你在教我做事”的意思，好记性不如烂笔头，所以我记录是为了方便自己，如果哪一天方便了你们我也是会很开心的。</p>
-<h5 id="1">1.排序算法</h5>
+<h3 id="1">1.排序算法</h3>
 <p>  排序算法是《数据结构与算法》中最基本的算法之一。</p>
 <p>  排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因为排序的数据量会很大，一次不能容纳全部的排序记录，在排序过程中需要访问外部存储（对于存储的概念并没有很深刻的理解，毕竟计算机体系结构这样的书都被我用来垫显示器了，真的是非常汗颜）。常见的外部排序算法又：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序等！这里基于Google和各类大神的结合我进行了简单的概括。</p>
 <table>
@@ -214,8 +214,8 @@ Both for fun and study!</description>
 </tr>
 </tbody>
 </table>
-<h5 id="2">2.几种排序的代码解释</h5>
-<h6 id="21">2.1冒泡排序</h6>
+<h3 id="2">2.几种排序的代码解释</h3>
+<h4 id="21">2.1冒泡排序</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random
 number <span style="color:#f92672">=</span> []
 <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">10</span>):
@@ -235,7 +235,7 @@ number <span style="color:#f92672">=</span> []
 
 bubbleSort(number)
 <span style="color:#66d9ef">print</span>(number)
-</code></pre></div><h6 id="21-1">2.1插入排序</h6>
+</code></pre></div><h4 id="21-1">2.1插入排序</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random
 
 number <span style="color:#f92672">=</span> []
@@ -257,7 +257,7 @@ number <span style="color:#f92672">=</span> []
 
 insertionSort(number)
 <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">排序后的数据</span><span style="color:#e6db74">&#34;</span>,number)
-</code></pre></div><h6 id="21-2">2.1归并排序</h6>
+</code></pre></div><h4 id="21-2">2.1归并排序</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random 
 <span style="color:#f92672">import</span> math
 
@@ -288,7 +288,7 @@ n <span style="color:#f92672">=</span> int(n)
     <span style="color:#66d9ef">return</span> result
 <span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">__main__</span><span style="color:#e6db74">&#39;</span>:
     <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">排序后的数据: </span><span style="color:#e6db74">&#34;</span>,mergeSort(number))
-</code></pre></div><h6 id="21-3">2.1选择排序</h6>
+</code></pre></div><h4 id="21-3">2.1选择排序</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random 
 number <span style="color:#f92672">=</span> []
 <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">10</span>):
@@ -309,7 +309,8 @@ number <span style="color:#f92672">=</span> []
 
 SelectionSort(number)
 <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">排序后的数据:</span><span style="color:#e6db74">&#34;</span>,number)
-</code></pre></div>]]></content>
+</code></pre></div><p>  其实也就是为了方便自己以后查看，很多都是参考大神们的书写。codebug是个过程，debugbug才是目的！</p>
+]]></content>
         </item>
         
     </channel>
