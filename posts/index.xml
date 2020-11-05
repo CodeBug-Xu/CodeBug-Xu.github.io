@@ -125,7 +125,7 @@ Both for fun and study!</description>
             <description>排序算法  记录本身是为了自己查找，后面你们会发现，我写的东西大多数都是为了方便自己查找，而非真正的“你在教我做事”的意思，好记性不如烂笔头，所以我记录是为了方便自己，如果哪一天方便了你们我也是会很开心的。
 1.排序算法  排序算法是《数据结构与算法》中最基本的算法之一。
  排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因为排序的数据量会很大，一次不能容纳全部的排序记录，在排序过程中需要访问外部存储（对于存储的概念并没有很深刻的理解，毕竟计算机体系结构这样的书都被我用来垫显示器了，真的是非常汗颜）。常见的外部排序算法又：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序等！这里基于Google和各类大神的结合我进行了简单的概括。
-   排序算法 平均时间复杂度 空间复杂度 排序方式 稳定性     冒泡排序 $\mathbf{O(n^2)}$      选择排序       插入排序       希尔排序       归并排序       快速排序       堆排序       计数排序       桶排序       基数排序        </description>
+   排序算法 平均时间复杂度 空间复杂度 排序方式 稳定性     冒泡排序 ${O(n^2)}$ $\mathbf{O(n^2)}$ 内部排序 稳定   选择排 $\f{O(nlog^n)}$ $\mathbf{O(n^2)}$ 内部排序 稳定   插入排序 $\mathbf{O(n^2)}$ $\mathbf{O(n^2)}$ 内部排序 稳定   希尔排序 $\mathbf{O(n^2)}$ $\mathbf{O(n^2)}$ 内部排序 稳定   归并排序 $\mathbf{O(n^2)}$ $\mathbf{O(n^2)}$ 内部排序 稳定   快速排序 $\mathbf{O(n^2)}$ $\mathbf{O(n^2)}$ 内部排序 稳定   堆排序 $\mathbf{O(n^2)}$ $\mathbf{O(n^2)}$ 内部排序 稳定   计数排序 $\mathbf{O(n^2)}$ $\mathbf{O(n^2)}$ 内部排序 稳定   桶排序 $\mathbf{O(n^2)}$ $\mathbf{O(n^2)}$ 内部排序 稳定   基数排序 $\mathbf{O(n^2)}$ $\mathbf{O(n^2)}$ 内部排序 稳定    </description>
             <content type="html"><![CDATA[<h5 id="heading">排序算法</h5>
 <p>  记录本身是为了自己查找，后面你们会发现，我写的东西大多数都是为了方便自己查找，而非真正的“你在教我做事”的意思，好记性不如烂笔头，所以我记录是为了方便自己，如果哪一天方便了你们我也是会很开心的。</p>
 <h5 id="1">1.排序算法</h5>
@@ -144,73 +144,73 @@ Both for fun and study!</description>
 <tbody>
 <tr>
 <td align="center">冒泡排序</td>
-<td align="center">$\mathbf{O(n^2)}$</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center"><code>${O(n^2)}$</code></td>
+<td align="center"><code>$\mathbf{O(n^2)}$</code></td>
+<td align="center">内部排序</td>
+<td align="center">稳定</td>
 </tr>
 <tr>
-<td align="center">选择排序</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td></td>
+<td align="center">选择排</td>
+<td align="center">$\f{O(nlog^n)}$</td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">内部排序</td>
+<td align="center">稳定</td>
 </tr>
 <tr>
 <td align="center">插入排序</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td></td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">内部排序</td>
+<td align="center">稳定</td>
 </tr>
 <tr>
 <td align="center">希尔排序</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td></td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">内部排序</td>
+<td align="center">稳定</td>
 </tr>
 <tr>
 <td align="center">归并排序</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td></td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">内部排序</td>
+<td align="center">稳定</td>
 </tr>
 <tr>
 <td align="center">快速排序</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td></td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">内部排序</td>
+<td align="center">稳定</td>
 </tr>
 <tr>
 <td align="center">堆排序</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td></td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">内部排序</td>
+<td align="center">稳定</td>
 </tr>
 <tr>
 <td align="center">计数排序</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td></td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">内部排序</td>
+<td align="center">稳定</td>
 </tr>
 <tr>
 <td align="center">桶排序</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td></td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">内部排序</td>
+<td align="center">稳定</td>
 </tr>
 <tr>
 <td align="center">基数排序</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td></td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">$\mathbf{O(n^2)}$</td>
+<td align="center">内部排序</td>
+<td align="center">稳定</td>
 </tr>
 </tbody>
 </table>
