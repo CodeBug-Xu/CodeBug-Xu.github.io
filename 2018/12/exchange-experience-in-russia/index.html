@@ -41,6 +41,42 @@ Both for fun and study!" />
     <meta name="msapplication-TileColor" content="#252627">
     <meta name="theme-color" content="#252627">
 
+
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
 <meta itemprop="name" content="Exchange experience in Russia">
 <meta itemprop="description" content="Thanks for 2 doctors(Dr.Wang &amp; Dr. Jiang) leading us in Russia for our exchange study.
 Here is the team.
@@ -171,6 +207,13 @@ Both for fun and study!"/>
                     
 
                     
+                        <span class="button next">
+                            <a href="https://codebug-xu.github.io/2018/10/sorts-algorithm/">
+                                <span class="button__text">Sorts Algorithm</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
                 </div>
             </div>
         
@@ -199,6 +242,7 @@ Both for fun and study!"/>
         </div>
     </div>
 </footer>
+
 
             
         </div>

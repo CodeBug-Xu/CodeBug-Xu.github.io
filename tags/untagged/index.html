@@ -39,6 +39,42 @@
     <meta name="msapplication-TileColor" content="#252627">
     <meta name="theme-color" content="#252627">
 
+
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
 <meta itemprop="name" content="untagged">
 <meta itemprop="description" content="Nice theme for homepages and blogs"><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://codebug-xu.github.io"/>
@@ -110,6 +146,12 @@
 
                 <ul class="posts-list">
                         <li class="post-item">
+                            <a href="https://codebug-xu.github.io/2020/11/sort1/">
+                                <span class="post-title">Sort1</span>
+                                <span class="post-day">Nov 5</span>
+                            </a>
+                        </li>
+                        <li class="post-item">
                             <a href="https://codebug-xu.github.io/2020/11/s10/">
                                 <span class="post-title">S10</span>
                                 <span class="post-day">Nov 1</span>
@@ -140,6 +182,7 @@
         </div>
     </div>
 </footer>
+
 
             
         </div>

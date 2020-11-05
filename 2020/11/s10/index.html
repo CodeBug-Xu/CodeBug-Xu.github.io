@@ -52,6 +52,42 @@ Bin来将挡，水来土掩 —— SN  写这篇真的是为了记录我的感
     <meta name="msapplication-TileColor" content="#252627">
     <meta name="theme-color" content="#252627">
 
+
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
 <meta itemprop="name" content="S10">
 <meta itemprop="description" content="这个充满话题的赛季终于结束了。
  IG和小凤凰的时代貌似划过去了。
@@ -215,6 +251,13 @@ Bin来将挡，水来土掩 —— SN  写这篇真的是为了记录我的感
 
                 <div class="pagination__buttons">
                     
+                        <span class="button previous">
+                            <a href="https://codebug-xu.github.io/2020/11/sort1/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">Sort1</span>
+                            </a>
+                        </span>
+                    
 
                     
                         <span class="button next">
@@ -252,6 +295,7 @@ Bin来将挡，水来土掩 —— SN  写这篇真的是为了记录我的感
         </div>
     </div>
 </footer>
+
 
             
         </div>
