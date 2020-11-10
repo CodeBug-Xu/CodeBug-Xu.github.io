@@ -7,10 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ch</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 06 Nov 2020 14:33:31 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2020 10:16:56 +0800</lastBuildDate>
     
 	<atom:link href="https://codebug-xu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Iterm2配置</title>
+      <link>https://codebug-xu.github.io/notes/iterm2%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sat, 07 Nov 2020 10:16:56 +0800</pubDate>
+      
+      <guid>https://codebug-xu.github.io/notes/iterm2%E9%85%8D%E7%BD%AE/</guid>
+      <description>0.why  好就一个字，我只说一次！！！！！！！
+1.1 安装iterm2  最近新入手了一块MacBook air，新的玩具到手，(tip: 这里自然会说一下我的债主，老马为我倾情贡献的分期免息。)自然免不了的就是各种各样的配置，所以这个系列我们就会从开始配置iterm2开始。 iterm2是自带的终端的一种替代品，还是非常不错的，对于怎么使用和使用特点后续我们再诉说一下衷肠。下载好了以后就是傻瓜式的安装，不知道为什么，在翻墙模式下，下载的速度是很慢的，没有测试在没有翻墙下的速度，感兴趣的可以自己试一下，没多大，但是下了好半天。后面的关于个性化的设置就看自己喜欢什么，在这一步我都是默认的，还没有做任何的修改，确实并没有眼前一亮的感觉。
+1.2 安装 oh-my-zsh  安装这个的时候可选的方式还是很多的:
+  github: https://github.com/robbyrussell/oh-my-zsh
+  比较官方的网址: ohmyz.sh,在网站上提供了两种安装方式:
+  weget安装: $ sh -c &amp;#34;$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)&amp;#34; curl安装: $ sh -c &amp;#34;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34;  当然，在你使用上述的weget等安装的时候，你会发现你需要安装weget，同理，安装weget的方式也有多种，我始终觉得安装这些东西的时候终端命令行的方式还是最简单质朴和高效的，所以可以选择使用homebrew来安装，因此你需要拥有和安装homebrew，基于这些需求，我们可以采取的最简单的方法就是直接安装mac的宇宙第一IDE，Xcode。这种模式还是简单的，他可以支持很多语言环境的开发，但是也许你以后也用不到这个软件(Apple store可以直接下载)。但是对于以后需要配置安装东西的时候需要开发者模式选项等的时候你就会发现拥有Xcode是很幸福的，你不用，但是它在默默的帮助你。但是在安装brew的时候发现原先的GitHub的gist是访问不了了。解决的方法也是很多，你可以换成其他的镜像，有大神有提供脚本。也可以直接解析原网址https://raw.github.com,解析的方法是首先在IP查询网址https://site.ip138.com/raw.Githubusercontent.com/进行查询，直接输入raw.githubusercontent.com进行查询，然后就可以进行homebrew、wget和oh-my-zsh的安装。其实通过终端的方式进行安装方便的原因还是因为不需要我们进行多样式的UI操作，但是很多时候出现要翻墙的时候如果手头不方便的话，通过传统的方式安装和找到国内的镜像源还是会比较方便的。
+1.3 配置 oh-my-zsh  zsh已经有很多的主题供我们选择了，但是我还是非常推荐Dracula上面的主题，该开源的项目上包含了各种各样的主题，针对不同的开发、软件、IDE、编辑器等都有很好的用户体验，后续我们会配置vim/mvim，我们还是会使用这个上面的主题 首先下载主题
+$ git clone https://github.com/dracula/iterm.git  通过命令行的方式进行修改, 先对主题文件和zsh进行连接，
+$ ln -s $DRACULA_THEME/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-them  打开配置文件，
+$ vi ~/.zshrc  修改主题为Dracula。(tip:值得注意的是等号之间没有空格)
+ZSH_THEME=&amp;#34;dracula&amp;#34;  另一种修改主题的方式也有，官网上面也说的很明确。</description>
+    </item>
     
     <item>
       <title>Second</title>
