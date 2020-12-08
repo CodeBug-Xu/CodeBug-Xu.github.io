@@ -92,6 +92,19 @@ As the slogan of Cetics which is the famous team in NBA says: What hurts more th
     </item>
     
     <item>
+      <title>Chmod的含义</title>
+      <link>https://codebug-xu.github.io/notes/chmod/</link>
+      <pubDate>Sun, 08 Dec 2019 10:19:23 +0800</pubDate>
+      
+      <guid>https://codebug-xu.github.io/notes/chmod/</guid>
+      <description>754  之前听过一段很有意思的一个小小的段子，一句话描述我国的FL， 有一位大神的回答是很有意思的，754，当时很多人还不是很清楚这句话的意思。
+Chmod  Linux系统中，每个用户的角色和权限划分的很细致也很严格，每个文件（目录）都设有访问许可权限，利用这种机制来决定某个用户通过某种方式对文件（目录）进行读、写、执行等操作。
+操作文件或目录的用户，有3种不同类型：文件所有者、群组用户、其他用户。最高位表示文件所有者的权限值，中间位表示群组用户的权限值，最低位则表示其他用户的权限值，所以，chmod 777中，三个数字7分别对应上面三种用户，权限值都为7。
+文件或目录的权限又分为3种：只读、只写、可执行。
+   权限 权限数值 二进制 具体作用     r 4 00000100 read   w 2 00000010 write   x 1 00000001 execute    </description>
+    </item>
+    
+    <item>
       <title>Quantum</title>
       <link>https://codebug-xu.github.io/2019/12/quantum/</link>
       <pubDate>Mon, 02 Dec 2019 19:09:40 +0800</pubDate>
@@ -123,18 +136,6 @@ class Solution: def twoSum(self, nums: List[int], target: int) -&amp;gt; List[in
       <description>Thanks for 2 doctors(Dr.Wang &amp;amp; Dr. Jiang) leading us in Russia for our exchange study.
 Here is the team.
 Both for fun and study!</description>
-    </item>
-    
-    <item>
-      <title>Sorts Algorithm</title>
-      <link>https://codebug-xu.github.io/2018/10/sorts-algorithm/</link>
-      <pubDate>Thu, 04 Oct 2018 17:07:47 +0000</pubDate>
-      
-      <guid>https://codebug-xu.github.io/2018/10/sorts-algorithm/</guid>
-      <description>排序算法  记录本身是为了自己查找，后面你们会发现，我写的东西大多数都是为了方便自己查找，而非真正的“你在教我做事”的意思，好记性不如烂笔头，所以我记录是为了方便自己，如果哪一天方便了你们我也是会很开心的。
-1.排序算法  排序算法是《数据结构与算法》中最基本的算法之一。
- 排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因为排序的数据量会很大，一次不能容纳全部的排序记录，在排序过程中需要访问外部存储（对于存储的概念并没有很深刻的理解，毕竟计算机体系结构这样的书都被我用来垫显示器了，真的是非常汗颜）。常见的外部排序算法又：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序等！这里基于Google和各类大神的结合我进行了简单的概括。
-   排序算法 平均时间复杂度 空间复杂度 排序方式 稳定性     冒泡排序 ${O(n^2)}$ $O(1)$ 内部排序 稳定   选择排 $O(n^2)$ $O(1)$ 内部排序 不稳定   插入排序 $O(n^2)$ $O(1)$ 内部排序 稳定   希尔排序 ${O(nlog^n)}$ $O(1)$ 内部排序 不稳定   归并排序 ${O(nlog^n)}$ $O(n)$ 外部排序 稳定   快速排序 ${O(nlog^n)}$ $O(log^n)$ 内部排序 不稳定   堆排序 ${O(nlog^n)}$ $O(1)$ 内部排序 不稳定   计数排序 $O(n+k)$ $O(k)$ 外部排序 稳定   桶排序 $O(n+k)$ $O(n+k)$ 外部排序 稳定   基数排序 $O(n+k)$ $O(n+k)$ 外部排序 稳定    2.</description>
     </item>
     
   </channel>
